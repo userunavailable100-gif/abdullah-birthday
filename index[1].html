@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Happy 18th Birthday Abdullah 🎂</title>
+<style>
+:root{--bg:#0b1437;--bg2:#1b2a6b;--card:#ffffff14;--tx:#fff;--gold:#ffd54a;--red:#ff3b57;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
+html{color-scheme:dark}
+body{background:radial-gradient(circle at 50% 0,var(--bg2),var(--bg) 70%) fixed;color:var(--tx);font-family:'Trebuchet MS',system-ui,sans-serif;min-height:100vh;overflow-x:hidden;text-align:center}
+.s{display:none;min-height:100vh;padding:24px 16px 40px;flex-direction:column;align-items:center;justify-content:center;gap:14px;animation:in .6s}
+.s.on{display:flex}
+@keyframes in{from{opacity:0;transform:translateY(20px)}to{opacity:1}}
+@keyframes bob{50%{transform:translateY(-12px)}}
+@keyframes beat{0%,100%{transform:scale(1)}30%{transform:scale(1.25)}60%{transform:scale(1.05)}}
+@keyframes fall{to{transform:translateY(110vh) rotate(360deg)}}
+@keyframes glow{50%{text-shadow:0 0 28px var(--gold),0 0 6px #fff}}
+.fl{position:fixed;top:-30px;pointer-events:none;animation:fall linear infinite;z-index:0}
+.s>*{position:relative;z-index:1}
+h1,h2,h3{font-weight:800}
+.big{font-size:min(34vw,150px);font-weight:900;color:var(--gold);line-height:1;animation:glow 2s infinite;letter-spacing:2px}
+.sm{font-size:15px;opacity:.9;max-width:340px;line-height:1.6}
+.name{font-size:clamp(34px,11vw,60px);letter-spacing:4px;font-weight:900;background:linear-gradient(90deg,#4fc3f7,#ffd54a,#4fc3f7);-webkit-background-clip:text;background-clip:text;color:transparent}
+.btn{border:0;border-radius:30px;padding:14px 26px;font-size:17px;font-weight:700;color:#fff;background:linear-gradient(135deg,#2979ff,#00b0ff);box-shadow:0 6px 18px #0006;cursor:pointer}
+.btn.r{background:linear-gradient(135deg,#ff3b57,#ff7a45)}.btn.g{background:#555}
+.row{display:flex;gap:14px;flex-wrap:wrap;justify-content:center}
+.big-e{font-size:90px;animation:bob 2.5s infinite}
+.hbtn{border:0;background:none;font-size:90px;cursor:pointer;position:relative}
+.hbtn b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:34px}
+.hbtn small{position:absolute;left:0;right:0;bottom:-6px;font-size:14px;color:#fff;font-weight:700}
+.no{filter:grayscale(1) brightness(.8)}
+.pass{display:flex;gap:10px}
+.pass input{width:56px;height:66px;border-radius:12px;border:2px solid var(--gold);background:#0006;color:#fff;font-size:30px;text-align:center}
+.msg{min-height:26px;font-weight:700}
+.hl{display:flex;gap:2px;flex-wrap:wrap;justify-content:center;font-size:clamp(34px,11vw,56px);font-weight:900}
+.hl span{display:inline-block;animation:bob 1.6s infinite}
+.tv{width:min(88vw,380px);border:10px solid #222;border-radius:22px;background:linear-gradient(#1c1c3a,#2a1250);padding:18px;box-shadow:0 0 0 4px #444,0 12px 30px #000a}
+.tv .cake{font-size:80px;animation:bob 2s infinite}
+.side{position:fixed;top:0;bottom:0;display:flex;flex-direction:column;justify-content:space-around;font-size:34px;z-index:0;opacity:.85}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;width:min(92vw,400px)}
+.card{background:var(--card);border:1px solid #fff3;border-radius:18px;padding:18px 8px;cursor:pointer;backdrop-filter:blur(4px);font-weight:700;font-size:15px}
+.card i{display:block;font-style:normal;font-size:44px;margin-bottom:8px}
+.back{position:fixed;top:calc(10px + env(safe-area-inset-top,0px));left:10px;z-index:9;border:0;border-radius:22px;background:#0009;color:#fff;font-size:20px;padding:8px 14px;cursor:pointer}
+.paper{background:#fffaf0;color:#3a2a1a;border-radius:14px;padding:22px 18px;width:min(94vw,420px);text-align:left;line-height:1.8;font-size:15.5px;box-shadow:0 10px 30px #0008}
+.paper p{margin:0 0 22px}
+.cert{background:linear-gradient(#fffdf2,#fbf0c9);color:#4a3510;border:6px double #c9962b;border-radius:12px;padding:26px 18px;width:min(94vw,420px);line-height:1.7}
+.cert h2{font-family:Georgia,serif;font-size:24px;color:#9a6b00}
+.mini{display:flex;gap:8px;justify-content:center;margin-bottom:14px}
+.mini div{flex:1;background:#ffe3ea;border-radius:12px;padding:10px 4px;font-weight:700;color:#b0204a;text-align:center;font-size:13px}
+.mini div i{display:block;font-style:normal;font-size:30px}
+.jar{font-size:120px;cursor:pointer;animation:bob 2.5s infinite}
+.nums{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;width:min(94vw,400px)}
+.nums button{aspect-ratio:1;border-radius:12px;border:0;background:linear-gradient(135deg,#ffd54a,#ff9800);color:#3a2000;font-weight:900;font-size:18px;cursor:pointer}
+.nums button.d{background:#ffffff22;color:#fff}
+.ov{position:fixed;inset:0;background:#000b;display:none;align-items:center;justify-content:center;z-index:20;padding:20px}
+.ov.on{display:flex}
+.ov .paper{text-align:center}
+.list{display:flex;flex-direction:column;gap:12px;width:min(94vw,420px);text-align:left}
+.list div{background:var(--card);border-radius:14px;padding:14px;font-size:15px;line-height:1.6;border-left:4px solid var(--gold)}
+.type{white-space:pre-wrap;width:min(94vw,420px);text-align:left;line-height:1.9;font-size:16px}
+.type p{margin-bottom:46px}
+.hide{display:none}
+</style></head><body>
+
+<!-- 1 COVER -->
+<section class="s on" id="cover">
+ <div style="font-size:30px">🎈🎉🎊🎈🎉</div>
+ <p class="sm" style="font-size:20px;font-weight:700">Asking you… a Birthday Surprise 🎁</p>
+ <div class="big">18</div><div style="font-size:26px">🎂✨🎉✨🎂</div>
+ <h1 style="font-size:30px;color:#ff80ab">Happy Birthday</h1>
+ <div class="name">ABDULLAH</div>
+ <p class="sm" style="font-size:17px">To the Most Amazing Husband in the World 👑<br>My Forever Best Friend 💙</p>
+ <div style="font-size:22px">⭐ 💫 ❤️ 💫 ⭐</div>
+ <p style="font-weight:700;color:var(--gold)">October 14, 2026</p>
+ <div class="row"><button class="btn g" onclick="rej()">Reject Card</button><button class="btn r" onclick="go('mk')">Open Card</button></div>
+ <div class="hide msg" id="rejmsg" style="max-width:340px;line-height:1.6"><div style="font-size:40px">😢😭💔😿</div>No, you have to open the card 💕<br>I love you soo much! I made it with soo much love, and it takes more time than you imagine 🥺</div>
+</section>
+
+<!-- 2 MADE SOMETHING -->
+<section class="s" id="mk">
+ <div class="big-e">🧸</div>
+ <h2>I made something for you…</h2>
+ <button class="btn" onclick="go('wh')">What? 🤔</button>
+</section>
+<section class="s" id="wh">
+ <div class="big-e" style="font-size:70px">🧸</div>
+ <h2>Do you want to see it?</h2>
+ <div class="row" style="gap:30px">
+  <button class="hbtn no" onclick="go('aww')">🩶<b>😢</b><small>No</small></button>
+  <button class="hbtn" onclick="go('lock')">❤️<b>🥰</b><small>Yes</small></button>
+ </div>
+</section>
+<section class="s" id="aww">
+ <div style="font-size:80px">🥺😭</div><h2>Aww… please? 🥺</h2>
+ <button class="btn r" onclick="go('wh')">Okay, go back 💕</button>
+</section>
+
+<!-- 3 LOCK -->
+<section class="s" id="lock">
+ <div style="font-size:90px">🔒🗝️</div>
+ <h3>If you wanna see your surprise,<br>enter the passcode</h3>
+ <p class="sm">💡 Hint: It's your birth year</p>
+ <div class="pass" id="pass"></div>
+ <div class="msg" id="pmsg"></div>
+</section>
+
+<!-- 4 CELEBRATION -->
+<section class="s" id="cel">
+ <div class="side" style="left:4px"><span>🎈</span><span>🎉</span><span>🎊</span><span>🎈</span><span>🎉</span></div>
+ <div class="side" style="right:4px"><span>🎊</span><span>🎈</span><span>🎉</span><span>🎊</span><span>🎈</span></div>
+ <div class="hl" id="hb1"></div><div class="hl" id="hb2"></div>
+</section>
+<section class="s" id="tv">
+ <div class="side" style="left:6px;justify-content:center;gap:40px"><span>✨</span><span>🌟</span><span>✨</span></div>
+ <div class="side" style="right:6px;justify-content:center;gap:40px"><span>✨</span><span>🌟</span><span>✨</span></div>
+ <div class="tv"><div class="cake">🎂</div><div class="name" style="font-size:36px">ABDULLAH</div><div style="font-size:44px;animation:beat 1.2s infinite">❤️</div><h2 style="color:var(--gold)">18th Birthday</h2></div>
+ <button class="btn r" onclick="go('candle')">Open your surprise ➜ 🎈🎈</button>
+</section>
+
+<!-- CANDLES -->
+<section class="s" id="candle">
+ <h2>Make a wish 🤲</h2>
+ <p class="sm">Aankhein band kijiye, dil mein ek wish sochiye, phir candles bujhaiye 🕯️</p>
+ <div style="font-size:44px;letter-spacing:10px;transition:opacity 1s" id="fl">🔥🔥🔥</div>
+ <div style="font-size:130px;margin-top:-18px;animation:bob 2.5s infinite">🎂</div>
+ <button class="btn" id="bl" onclick="blow()">Blow the candles 💨</button>
+ <div class="hide msg" id="wm" style="max-width:320px;line-height:1.6;color:var(--gold)">Wish pakki! 🎉 Allah kare aapki har wish poori ho, in sha Allah 🤲💙</div>
+ <button class="btn r hide" id="cn" onclick="go('lvl');bars()">Next ➜</button>
+</section>
+
+<!-- LEVEL UP -->
+<section class="s" id="lvl">
+ <div style="font-size:46px">🎮🕹️</div>
+ <h1 style="color:#4cff8a;letter-spacing:3px;animation:glow 1.5s infinite">LEVEL UP!</h1>
+ <div class="name" style="font-size:34px">ABDULLAH</div>
+ <h2 style="color:var(--gold)">Level 18 Unlocked 🔓</h2>
+ <div class="list" id="stats" style="margin-top:6px"></div>
+ <p class="sm">🏆 Achievement: World's Best Husband (Beta Version, still improving 😜)</p>
+ <button class="btn r" onclick="go('menu')">Open your surprise ➜ 🎁</button>
+</section>
+
+<!-- 5 MENU -->
+<section class="s" id="menu">
+ <p class="sm" style="color:var(--gold)">👆 Click to open</p>
+ <h2>Your Birthday Surprise Awaits ✨</h2>
+ <div class="grid">
+  <div class="card" onclick="go('cert')"><i>🏆</i>Certificate</div>
+  <div class="card" onclick="go('letter')"><i>💌</i>Love Letter</div>
+  <div class="card" onclick="go('wish')"><i>🌠</i>Wishes</div>
+  <div class="card" onclick="go('why')"><i>💖</i>Why I Love You</div>
+  <div class="card" onclick="go('gift')"><i>🎁</i>Surprise Gift</div>
+  <div class="card" onclick="go('final')"><i>🧸</i>Final Words</div>
+ </div>
+</section>
+
+<!-- CERTIFICATE -->
+<section class="s" id="cert">
+ <button class="back" onclick="go('menu')">⬅</button>
+ <div class="cert">
+  <div style="font-size:70px">🏆</div>
+  <h2>Certificate of Recognition</h2>
+  <p style="margin:12px 0 4px">This certificate is proudly presented to</p>
+  <div class="name" style="font-size:34px;-webkit-text-fill-color:#9a6b00;background:none">Abdullah</div>
+  <p style="margin:8px 0">In recognition of being the most precious soul</p>
+  <p style="font-size:14px">for being my best friend, my safe place, my partner and the person I needed the most. Thank you for your unconditional love, endless support and for being my forever favourite person.</p>
+  <div style="font-size:34px;animation:beat 1.4s infinite;margin-top:8px">💖</div>
+  <hr style="border:1px solid #c9962b;width:60%;margin:6px auto">
+  <p style="font-style:italic">Your Lovely Wife 💕</p>
+  <div style="font-size:44px">🏅</div><p style="font-weight:700">14th October 2026</p>
+ </div>
+ <button class="btn" onclick="dl()">⬇ Download Certificate</button>
+</section>
+
+<!-- LOVE LETTER -->
+<section class="s" id="letter" style="justify-content:flex-start;padding-top:70px">
+ <button class="back" onclick="go('menu')">⬅</button>
+ <div class="paper">
+  <div class="mini"><div><i>👦👧</i>Us</div><div><i style="color:#ff4081">💗✨</i>Forever</div><div><i>👩‍❤️‍👨</i>Couple</div></div>
+  <p style="color:var(--red);font-weight:800;text-align:center">With all my love ❤️</p>
+  <p style="text-align:center;font-weight:700">My dearest Abdullah,<br>Happy 18th Birthday, the most beautiful soul I know</p>
+  <p style="text-align:center;font-size:50px;margin:0 0 16px">🎂</p>
+  <p>I still remember the day you came into my life. I became your wife and my life changed forever. From just "I love you" to sharing our deepest secrets, every moment with you is a treasure I keep locked in my heart. You have this magical ability to make everything better just by being there. When I cry, you protect me like a shield. When I laugh, you laugh louder. You are my safe harbor in every storm. Even in my little successes you clap so hard that I can't even feel the ones who don't clap. You are enough for me. You stepped into adulthood today, but to be honest, before stepping into 18 you were already above 18 in your mind 😂😂</p>
+  <p>But I want you to know: you are enough, you are worthy, you are capable of achieving everything your heart holds. Never let anyone dim your light, because you shine brighter than the stars.</p>
+  <p>I am so proud of the man you are becoming: strong, kind, funny and absolutely irreplaceable.</p>
+  <p>Thank you for being my husband. Thank you for being my best friend. Thank you for simply being you.</p>
+  <p>I love you more than words could ever express. To the moon, to the stars and back, infinity 🌛👑💕</p>
+  <p style="text-align:right;color:var(--red);font-weight:800;margin:0">Forever yours,<br>your loving wife ❤️</p>
+ </div>
+</section>
+
+<!-- WISHES -->
+<section class="s" id="wish">
+ <button class="back" onclick="go('menu')">⬅</button>
+ <div id="jarbox"><h2>Wish for You 🌟</h2><div class="jar" onclick="openJar()">🫙</div><p class="sm">Click to open the jar — your wishes are waiting inside ✨</p></div>
+ <div id="wbox" class="hide"><h2 style="margin-bottom:14px">18 Wishes for You 🌠</h2><div class="nums" id="nums"></div></div>
+</section>
+<div class="ov" id="wov" onclick="this.classList.remove('on')"><div class="paper"><div style="font-size:44px" id="wn"></div><p id="wt" style="margin:10px 0 0;font-size:17px"></p><small>(tap to close)</small></div></div>
+
+<!-- WHY -->
+<section class="s" id="why" style="justify-content:flex-start;padding-top:70px">
+ <button class="back" onclick="go('menu')">⬅</button>
+ <h2>18 Reasons Why I Love You 💖</h2>
+ <div class="list" id="rl"></div>
+ <h3 style="margin-top:14px;color:var(--gold)">I could write a thousand more… 💕</h3>
+ <button class="btn" onclick="go('menu')">⬆ Back</button>
+</section>
+
+<!-- GIFT -->
+<section class="s" id="gift">
+ <button class="back" onclick="go('menu')">⬅</button>
+ <div id="g1"><div class="jar" onclick="g('g1','g2')">🎁</div><h3>Surprise Gift</h3></div>
+ <div id="g2" class="hide"><div class="jar" style="animation:none;font-size:90px">📦</div><button class="btn r" onclick="g('g2','g3')">Open your gift 🎀</button></div>
+ <div id="g3" class="hide"><div style="font-size:120px;cursor:pointer;animation:beat 1s infinite" onclick="startType()">❤️</div><h3 id="tt">Touch the heart 👆</h3><div class="type hide" id="ty" style="margin-top:30px"></div></div>
+ <button class="btn hide" id="gb" onclick="go('menu')">⬆ Back</button>
+</section>
+
+<!-- FINAL -->
+<section class="s" id="final">
+ <button class="back" onclick="go('menu')">⬅</button>
+ <div class="big-e">🧸</div>
+ <p class="sm" style="font-size:18px">May all the good things you have been waiting for finally find you this year. Happy 18th Birthday, Abdullah! 🎂✨</p>
+ <div id="f1"><div style="font-size:100px;cursor:pointer;animation:beat 1s infinite" onclick="fin()">❤️</div><h3>Touch the heart for one last surprise 💕🥺</h3></div>
+ <div id="f2" class="hide"><div style="font-size:60px">💕🥺</div>
+  <p class="sm" style="font-size:18px;margin:12px auto">I love you, Abdullah.<br>Thank you for being the most amazing husband in the world.<br>This day is all about you. 💙</p>
+  <button class="btn r" onclick="closeAll()">Close ✖</button></div>
+</section>
+<section class="s" id="end"><div style="font-size:70px">🌙✨</div><h2>Happy Birthday, Abdullah 💙</h2><p class="sm">Forever yours ❤️</p></section>
+
+<div class="ov" id="cov" onclick="this.classList.remove('on')"><div style="text-align:center"><img id="cimg" style="max-width:92vw;max-height:80vh;border-radius:10px"><p class="sm" style="margin:10px auto">Long-press the image to save it 📲 (tap anywhere to close)</p></div></div>
+
+<script>
+const $=id=>document.getElementById(id);
+function go(id){document.querySelectorAll('.s').forEach(s=>s.classList.remove('on'));$(id).classList.add('on');window.scrollTo(0,0)}
+function rej(){$('rejmsg').classList.remove('hide')}
+// candles + level
+function blow(){$('fl').textContent='💨💨💨';setTimeout(()=>$('fl').style.opacity=0,500);$('bl').classList.add('hide');['🎉','🎊','✨','💙','🎈','⭐'].forEach(e=>{for(let k=0;k<8;k++){const d=document.createElement('div');d.className='fl';d.textContent=e;d.style.left=Math.random()*95+'vw';d.style.fontSize=(22+Math.random()*18)+'px';d.style.animationDuration=(2+Math.random()*3)+'s';d.style.animationIterationCount=1;d.style.zIndex=30;document.body.appendChild(d);setTimeout(()=>d.remove(),6000)}});setTimeout(()=>{$('wm').classList.remove('hide');$('cn').classList.remove('hide')},700)}
+const DS=['Your fashion sense is next level; your style and personality make every outfit look amazing.','Sharp mind, smart decisions, and honestly you were already above 18 in your thinking.','You can make me laugh in one second, even on my worst days.','Your heart is pure gold, and you are kind to everyone around you.','You protect me like a shield and always stand by me.','Your hugs fix everything; they are my favourite place in the world.'];
+const ST=[['😎 Style',100,'#40c4ff'],['🧠 Smartness',100,'#4cff8a'],['😂 Humor',100,'#ffd54a'],['💙 Kindness',100,'#ff80ab'],['🛡️ Protecting Wife',100,'#ff6e40'],['🤗 Hugs',100,'#e040fb']];
+$('stats').innerHTML=ST.map((s,i)=>`<div style="border-left-color:${s[2]}"><b>${s[0]}</b> <span style="float:right">${s[1]}%</span><div style="height:10px;background:#fff2;border-radius:6px;margin-top:8px;overflow:hidden"><i class="bar" style="display:block;height:100%;width:0;background:${s[2]};border-radius:6px;transition:width 1.6s"></i></div><p style="font-size:13px;opacity:.85;margin-top:8px;line-height:1.5">${DS[i]}</p></div>`).join('')+'<div style="border-left-color:#ff3b57"><b>❤️ Wife\'s Love</b> <span style="float:right">∞ (limit break!)</span><p style="font-size:13px;opacity:.85;margin-top:8px;line-height:1.5">My love for you has no limit; it only grows every single day.</p></div>';
+function bars(){document.querySelectorAll('.bar').forEach((b,i)=>{b.style.width='0';setTimeout(()=>b.style.width='100%',300+i*250)})}
+// falling stuff
+['🎈','🎉','✨','💙','⭐','🎊'].forEach((e,i)=>{for(let k=0;k<3;k++){const d=document.createElement('div');d.className='fl';d.textContent=e;d.style.left=Math.random()*95+'vw';d.style.fontSize=(16+Math.random()*16)+'px';d.style.animationDuration=(7+Math.random()*8)+'s';d.style.animationDelay=(-Math.random()*10)+'s';d.style.opacity=.6;document.body.appendChild(d)}});
+// passcode
+const P=$('pass');for(let i=0;i<4;i++){const n=document.createElement('input');n.maxLength=1;n.inputMode='numeric';n.type='tel';n.oninput=()=>{n.value=n.value.replace(/\D/g,'');if(n.value&&P.children[i+1])P.children[i+1].focus();chk()};n.onkeydown=e=>{if(e.key==='Backspace'&&!n.value&&P.children[i-1])P.children[i-1].focus()};P.appendChild(n)}
+function chk(){const v=[...P.children].map(x=>x.value).join('');if(v.length<4)return;const m=$('pmsg');if(v==='2008'){m.style.color='#4cff8a';m.textContent='🔓 Unlocking your surprise...';setTimeout(()=>{go('cel');party()},1400)}else{m.style.color='#ff6b6b';m.textContent='❌ Wrong! Please try again 🙈';setTimeout(()=>{[...P.children].forEach(x=>x.value='');P.children[0].focus()},900)}}
+// happy birthday letters
+const cols=['#ff5252','#ffb300','#4cff8a','#40c4ff','#e040fb','#ff80ab','#ffee58','#69f0ae','#ff6e40','#7c4dff'];
+function mk(w,el,off){$(el).innerHTML=[...w].map((c,i)=>`<span style="color:${cols[(i+off)%10]};animation-delay:${i*.15}s">${c}</span>`).join('')}
+mk('HAPPY','hb1',0);mk('BIRTHDAY','hb2',3);
+function party(){setTimeout(()=>{if($('cel').classList.contains('on'))go('tv')},6500)}
+// certificate image
+function dl(){const c=document.createElement('canvas');c.width=900;c.height=1200;const x=c.getContext('2d');x.fillStyle='#fdf3cf';x.fillRect(0,0,900,1200);x.strokeStyle='#c9962b';x.lineWidth=14;x.strokeRect(30,30,840,1140);x.lineWidth=4;x.strokeRect(58,58,784,1084);x.textAlign='center';x.fillStyle='#4a3510';
+const t=(s,y,f,col)=>{x.font=f;x.fillStyle=col||'#4a3510';x.fillText(s,450,y)};
+t('🏆',210,'140px serif');t('Certificate of Recognition',320,'bold 58px Georgia','#9a6b00');t('This certificate is proudly presented to',410,'34px Georgia');t('Abdullah',520,'bold 90px Georgia','#9a6b00');t('In recognition of being the most precious soul',600,'32px Georgia');
+['for being my best friend, my safe place,','my partner and the person I needed the most.','Thank you for your unconditional love,','endless support and for being','my forever favourite person.'].forEach((l,i)=>t(l,690+i*46,'30px Georgia'));
+t('💖',960,'70px serif');t('Your Lovely Wife',1020,'italic 38px Georgia');t('🏅 14th October 2026',1100,'bold 36px Georgia');
+$('cimg').src=c.toDataURL('image/png');$('cov').classList.add('on')}
+// wishes
+const W=['May Allah bless you with a long, healthy and happy life.','May every dream in your heart come true, one by one.','May your career and success rise higher than you ever imagined.','May your parents always be proud of you and stay healthy and happy beside you.','May Allah make your path easy and fill it with barakah.','May you achieve every goal you set for yourself.','May your studies and hard work be rewarded with great results.','May you always be surrounded by people who truly love you.','May your heart always stay as kind and pure as it is today.','May you become a man the whole family is proud of.','May Allah protect you from every harm and every bad eye.','May financial ease and halal rizq always find your door.','May our love grow stronger and more beautiful every single year.','May you never lose your smile or your sense of humor.','May your difficulties turn into lessons and your lessons into victories.','May you find peace, confidence and courage in every step.','May Allah grant you Jannat-ul-Firdaus, and may we walk there together, in sha Allah.','May every birthday after this be even more special than this one. I love you! 💕'];
+const nm=$('nums');W.forEach((w,i)=>{const b=document.createElement('button');b.textContent=i+1;b.onclick=()=>{b.classList.add('d');$('wn').textContent='🌟 Wish '+(i+1);$('wt').textContent=w;$('wov').classList.add('on')};nm.appendChild(b)});
+function openJar(){$('jarbox').classList.add('hide');$('wbox').classList.remove('hide')}
+// reasons
+const R=['You make me laugh even on my lowest days.','You never judge me, ever.','You always listen to me, and your hugs fix everything.','I can share everything with you, and you give me your everything. That is the highest form of love.','We never think even once before sharing anything with each other.','You protect me like a shield.','Even though you are younger, you treat me like your precious little one.','You never keep score of my mistakes.','When I am very upset, you can make me laugh in one second.','You give me the best advice, even when I have not asked for it.','When I am very sick, just talking to you makes me feel better.','You are my unpaid therapist. 😄','You are my stylist: you tell me what to wear, what suits me and which colour looks good on me.','You believe in me even when I cannot believe in myself.','You clap the loudest for even my smallest wins.','You are my safe place and my home.','You make every ordinary day feel special.','When I stop believing in myself, you are simply you, and that is my favourite thing in the entire world.'];
+$('rl').innerHTML=R.map((r,i)=>`<div><b style="color:var(--gold)">${i+1}.</b> ${r}</div>`).join('');
+// gift
+function g(a,b){$(a).classList.add('hide');$(b).classList.remove('hide')}
+const T=["You are my everything.\nI don't say this enough, but you are the best thing that ever happened to me.","When the world feels heavy, you are the light. When I feel lost, you are my home. When I cry, you are the only one who can make me laugh through my tears.","I know we fight. I know we annoy each other. But I also know that no one in this entire world understands me the way you do. You are my first friend, my forever friend and my favourite person.","I don't know what I did to deserve a husband like you, but I thank God every single second for you.","Happy 18th Birthday, my love. I promise to always stand by you, to cheer for you, to fight for you and to love you today and always.","You are my heart, my soul, my everything.\n\nYour wife, forever. 💕"];
+let typing=false;
+async function startType(){if(typing)return;typing=true;$('tt').classList.add('hide');const box=$('ty');box.classList.remove('hide');for(const para of T){const p=document.createElement('p');box.appendChild(p);for(const ch of para){p.textContent+=ch;await new Promise(r=>setTimeout(r,38))}p.scrollIntoView({block:'center',behavior:'smooth'});await new Promise(r=>setTimeout(r,500))}$('gb').classList.remove('hide')}
+// final
+function fin(){g('f1','f2')}
+function closeAll(){document.body.style.transition='opacity 1s';document.body.style.opacity=0;setTimeout(()=>{go('end');document.body.style.opacity=1},1000)}
+</script>
+</body></html>
